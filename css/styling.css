@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    height: 100vh;
+    background: url(../images/header.jpg) center center/cover;
+}
+
+
+.navbar {
+    height: 80px;
+    background-color: rgba(245, 245, 245, 0.5);
+    padding: 0 25px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    margin-right: 15px;
+    color: #333;
+    padding: 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid tomato;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(9, 11.1111%);
+    grid-template-rows: repeat(2, 350px);
+    padding: 0 10px;
+    margin: 20px 0;
+}
+
+.picture {
+    border: tomato solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.photo1 {
+    background: url(../images/1.jpeg) center center/cover;
+    grid-column: 1 / span 3;
+}
+
+.photo2 {
+    background: url(../images/2.jpg) center center/cover;
+    grid-column: 7 / span 3;
+}
+
+.photo3 {
+    background: url(../images/3.jpeg) center center/cover;
+    grid-column: 4 / span 3;
+    grid-row: 1 / span 2;
+}
+
+.photo4 {
+    background: url(../images/4.jpeg) center center/cover;
+    grid-column: 1 / span 3;
+}
+
+.photo5 {
+    background: url(../images/5.jpeg) center center/cover;
+    grid-column: 7 / span 3;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 1.7;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom p {
+    font-size: 40px;
+}
+
+.bottom a {
+    color: #333;
+    font-size: 20px;
+    padding: 20px 40px;
+    background-color: rgb(243, 123, 102);
+    border-radius: 15px;
+}
+
+.bottom a:hover {
+    background-color: tomato;
+}
+
+.footer {
+    background-color: #344444;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.footer .logo {
+    color: wheat;
+}
+
+.contact h2 {
+    padding: 16px 30px;
+    color: whitesmoke;
+    border: tomato 1px solid;
+    border-radius: 5px;
+}
+
+.contact h2:hover {
+    background-color: wheat;
+    color: #333;
+    border: tomato 3px solid;
+}

@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 100vh;
+    background: url(../images/18.jpeg) center center/cover;
+}
+
+.navbar {
+    height: 80px;
+    background-color: rgba(245, 245, 245, 0.5);
+    padding: 0 25px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    margin-right: 15px;
+    color: #333;
+    padding: 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid tomato;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    padding: 10px;
+}
+
+.picture {
+    min-height: 350px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.photo1 {
+    background: url(../images/10.jpeg) center center/cover;
+    grid-column: 3 / span 5;
+    grid-row: 11 / span 2;
+}
+
+.photo2 {
+    background: url(../images/11.jpeg) center center/cover;
+    grid-column: 1 / span 3;
+    grid-row: 5 / span 1;
+}
+
+.photo3 {
+    background: url(../images/12.jpeg) center center/cover;
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 1;
+}
+
+.photo4 {
+    background: url(../images/13.jpeg) center center/cover;
+    grid-column: 4 / span 3;
+    grid-row: 5 / span 1;
+}
+
+.photo5 {
+    background: url(../images/14.jpeg) center center/cover;
+    grid-column: 7 / span 3;
+    grid-row: 5 / span 1;
+}
+
+.photo6 {
+    background: url(../images/15.jpeg) center center/cover;
+    grid-column: 6 / span 4;
+    grid-row: 9 / span 1;
+}
+
+.photo8 {
+    background: url(../images/17.jpeg) center center/cover;
+    grid-column: 1 / span 5;
+    grid-row: 4 / span 1;
+}
+
+.photo9 {
+    background: url(../images/18.jpeg) center center/cover;
+    grid-column: 6 / span 4;
+    grid-row: 4 / span 1;
+}
+
+.photo10 {
+    background: url(../images/19.jpeg) center center/cover;
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 2;
+}
+
+.photo11 {
+    background: url(../images/20.jpeg) center center/cover;
+    grid-column: 1 / span 2;
+    grid-row: 11 / span 1;
+}
+
+.photo12 {
+    background: url(../images/header.jpg) center center/cover;
+    grid-column: 1 / span 10;
+    grid-row: 15 / span 1;
+}
+
+.photo13 {
+    background: url(../images/2.jpg) center center/cover;
+    grid-column: 1 / span 4;
+    grid-row: 6 / span 1;
+}
+
+.photo14 {
+    background: url(../images/3.jpeg) center center/cover;
+    grid-column: 1 / span 3;
+    grid-row: 13 / span 2;
+}
+
+.photo15 {
+    background: url(../images/4.jpeg) center center/cover;
+    grid-column: 5 / span 5;
+    grid-row: 6 / span 1;
+}
+
+.photo16 {
+    background: url(../images/5.jpeg) center center/cover;
+    grid-column: 1 / span 3;
+    grid-row: 10 / span 1;
+}
+
+.photo17 {
+    background: url(../images/6.jpeg) center center/cover;
+    grid-column: 4 / span 3;
+    grid-row: 10 / span 1;
+}
+
+.photo18 {
+    background: url(../images/7.jpeg) center center/cover;
+    grid-column: 7 / span 3;
+    grid-row: 10 / span 1;
+}
+
+.photo19 {
+    background: url(../images/8.jpeg) center center/cover;
+    grid-column: 1 / span 5;
+    grid-row: 9 / span 1;
+}
+
+.photo20 {
+    background: url(../images/9.jpeg) center center/cover;
+    grid-column: 1 / span 3;
+    grid-row: 7 / span 2;
+}
+
+.photo21 {
+    background: url(../images/25.jpeg) center center/cover;
+    grid-column: 4 / span 6;
+    grid-row: 3 / span 1;
+}
+
+.photo22 {
+    background: url(../images/21.jpeg) center center/cover;
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 2;
+}
+
+.photo23 {
+    background: url(../images/22.jpeg) center center/cover;
+    grid-column: 4 / span 3;
+    grid-row: 7 / span 2;
+}
+
+.photo24 {
+    background: url(../images/23.jpeg) center center/cover;
+    grid-column: 8 / span 2;
+    grid-row: 11 / span 1;
+}
+
+.photo25 {
+    background: url(../images/24.jpeg) center center/cover;
+    grid-column: 7 / span 3;
+    grid-row: 13 / span 2;
+}
+
+.photo26 {
+    background: url(../images/26.jpeg) center center/cover;
+    grid-column: 4 / span 3;
+    grid-row: 13 / span 2;
+}
+
+.photo27 {
+    background: url(../images/27.jpeg) center center/cover;
+    grid-column: 1 / span 2;
+    grid-row: 12 / span 1;
+}
+
+.photo28 {
+    background: url(../images/28.jpeg) center center/cover;
+    grid-column: 7 / span 3;
+    grid-row: 7 / span 2;
+}
+
+.photo29 {
+    background: url(../images/29.jpeg) center center/cover;
+    grid-column: 8 / span 5;
+    grid-row: 12 / span 1;
+}
+
+.photo30 {
+    background: url(../images/30.jpeg) center center/cover;
+    grid-column: 4 / span 3;
+    grid-row: 2 / span 1;
+}
+
+.footer {
+    background-color: #344444;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.footer .logo {
+    color: wheat;
+}
+
+.contact h2 {
+    padding: 16px 30px;
+    color: whitesmoke;
+    border: tomato 1px solid;
+    border-radius: 5px;
+}
+
+.contact h2:hover {
+    background-color: wheat;
+    color: #333;
+    border: tomato 3px solid;
+}
