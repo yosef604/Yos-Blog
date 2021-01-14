@@ -254,3 +254,21 @@ a {
     color: #333;
     border: tomato 3px solid;
 }
+
+@media (max-width: 760px){
+    
+    .navbar {
+        height: 150px;
+    }
+
+    .navbar .container {
+        display: flex;
+        flex-direction: column;
+        padding: 35px 20px;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+    }
+}
