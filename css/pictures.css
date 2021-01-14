@@ -272,3 +272,16 @@ a {
         flex-direction: column;
     }
 }
+
+@media (max-width:330px){
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+    }
+
+    .footer .logo {
+        margin-bottom: 20px;
+    }
+}

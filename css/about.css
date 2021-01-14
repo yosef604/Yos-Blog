@@ -114,7 +114,7 @@ a {
     border: tomato 3px solid;
 }
 
-@media(max-width: 760px){
+@media(max-width: 800px){
     .navbar {
         height: 150px;
         margin-bottom: 150px;
@@ -143,5 +143,35 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 350px){
+    .navbar {
+        margin-bottom: 30px;
+    }
+
+    .about-header {
+        padding: 20px;
+    }
+
+    .main .para {
+        font-size: 19px;
+        line-height: 1.6;
+    }
+
+    .social a i{
+        font-size: 30px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+    }
+
+    .footer .logo {
+        margin-bottom: 20px;
     }
 }

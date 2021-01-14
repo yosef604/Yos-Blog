@@ -185,3 +185,22 @@ a {
         margin-bottom: 20PX;
     }
 }
+
+@media (max-width:330px){
+    .bottom {
+        padding: 10px;
+        height: 330px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+    }
+
+    .footer .logo {
+        margin-bottom: 20px;
+    }
+}
