@@ -146,7 +146,7 @@ a {
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 500px){
     .navbar {
         margin-bottom: 30px;
     }
