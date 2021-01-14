@@ -146,7 +146,7 @@ a {
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 430px){
     .navbar {
         margin-bottom: 30px;
     }
@@ -158,6 +158,10 @@ a {
     .main .para {
         font-size: 19px;
         line-height: 1.6;
+    }
+
+    .social {
+        padding: 100px 0;
     }
 
     .social a i{
